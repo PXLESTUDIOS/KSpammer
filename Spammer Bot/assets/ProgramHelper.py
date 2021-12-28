@@ -1,11 +1,15 @@
-
+import pyautogui
+import time
 
 
 def play(filename):
-    with open(filename) as f:
-        f.readlines
-        for line in f:
-            print(line)
+    lyr = open(filename)
+    for each_line in lyr:
+        pyautogui.write(each_line)
+        pyautogui.press('enter')
+
+
+
 def imports():
     print("""
     The text below this shows what you put in the IMPORTS section:
@@ -14,6 +18,7 @@ def imports():
     if whatSong == \'song name\':
         program_name.starter()
     """)
+
 
 
 
