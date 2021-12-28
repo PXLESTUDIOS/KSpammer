@@ -13,6 +13,6 @@ tells how you import your custom spamming file and code
 # 
 # How To Use
 Install python either by installing it from microsoft, or python.org.
-) For a later version
+
 Open cmd and type pip install pyautogui for spamming
 #
